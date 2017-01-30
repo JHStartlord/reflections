@@ -1,0 +1,24 @@
+﻿What happens when you initialize a repository? Why do you need to do it?
+With git an empty repository is created. Now it is possible to add files to the
+repository and check them in. A repository is needed, so git knows that this is
+a directory which it should work on.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+With the staging area, I can add files selectivly, only the ones I like.
+I could leave out unwanted files, like debug information, or autogerernated 
+files, which would only eat up space in the repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
