@@ -11,11 +11,24 @@ files, which would only eat up space in the repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+I can selectivly add files for the logic change to the staging area. So I can 
+bundle the files which are belonging to the new feature and commit them 
+togehter. This does not work if two logic changes are done in one file.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are good if there is a stable main version and I would like to develop
+new features, add them one by one and after final testing, release them back to 
+the main branch.
+Also branches are good, if I would like to test something out. The main version
+is untouched, still I can further commit my experimantal changes step by step.
 
 How do the diagrams help you visualize the branch structure?
+Branch graphs show which parts different branches hace in common and where they
+differ. It is interesting, that git only keeps commits in branches with names.
+If I checkout a version with id, but not with a branch name, and commit someting
+to it, these commits will only be permanent, when changing to another point with
+checkout, if the branch has been assigned a new name.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
