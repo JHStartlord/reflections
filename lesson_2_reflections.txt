@@ -32,6 +32,9 @@ checkout, if the branch has been assigned a new name.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Changes in both branches are combined in new commit of current branch. So in a 
+graph, both branches represented as lines would meet in the merge as a crossing
+point.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
