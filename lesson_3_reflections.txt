@@ -47,4 +47,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I work on master, if I am the main responsible for the project and I only
+	have a small change, which does not need review or is safe to not break
+	anything else.
+	I would work on a branch, if I have a bigger feature to do, so I can 
+	commit frequently, maybe go back to master, if it does not realy work out.
+	Also, if mutliple people work on the same project adding features in 
+	parallel, I would work on a branch.
